@@ -1,15 +1,13 @@
 import React from 'react'
-import * as S from './header.style'
 import Logo from 'src/assets/images/logo-header.png'
+import { Image, Flex, Box } from '@chakra-ui/react'
 
 export default function Header() {
   return (
-    <S.StyledHeader>
-      <div className="container">
-        <div className="header-content">
-          <img src={Logo} alt="" />
-        </div>
-      </div>
-    </S.StyledHeader>
+    <Box bg="black" p="3">
+      <Flex display="flex" justifyContent="center">
+        <Image src={Logo} alt="" />
+      </Flex>
+    </Box>
   )
 }

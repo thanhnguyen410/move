@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from 'src/components/Footer/Footer'
 import Header from 'src/components/Header/Header'
 import PropTypes from 'prop-types'
 
@@ -8,7 +7,6 @@ export default function MainLayout({ children }) {
     <div>
       <Header />
       {children}
-      <Footer />
     </div>
   )
 }
