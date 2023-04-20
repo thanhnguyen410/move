@@ -1,3 +1,8 @@
+#The versions
+node v16.9.1
+npm 8.19.3
+yarn 1.22.19
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
